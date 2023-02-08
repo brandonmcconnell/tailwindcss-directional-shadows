@@ -1,6 +1,7 @@
 const plugin = require('tailwindcss/plugin');
 
-module.exports = plugin(function({ addUtilities, theme }) {
+module.exports = plugin(function({ addUtilities, matchUtilities, theme }) {
+  // Directional shadows
   ['sm', '', 'md', 'lg', 'xl', '2xl'].forEach((suffix) => {
     ['b', 'r', 't', 'l'].forEach((dir, i) => {
       const isEven = i % 2 === 0
@@ -24,4 +25,49 @@ module.exports = plugin(function({ addUtilities, theme }) {
       })
     })
   });
+  // Shadows as borders (useful with `position: sticky` on tables)
+  matchUtilities(
+    {
+      'shadow-border': (value) => ({
+        boxShadow: `inset 0 0 0 ${value} var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+      'shadow-border-x': (value) => ({
+        boxShadow: `inset ${value} 0 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )}), inset -${value} 0 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+      'shadow-border-y': (value) => ({
+        boxShadow: `inset 0 ${value} 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )}), inset 0 -${value} 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+      'shadow-border-t': (value) => ({
+        boxShadow: `inset 0 ${value} 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+      'shadow-border-b': (value) => ({
+        boxShadow: `inset 0 -${value} 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+      'shadow-border-l': (value) => ({
+        boxShadow: `inset ${value} 0 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+      'shadow-border-r': (value) => ({
+        boxShadow: `inset -${value} 0 0 0 var(--tw-shadow-color, ${theme(
+          'colors.gray.200'
+        )})`,
+      }),
+    },
+    { values: theme('borderWidth') }
+  );
 });
