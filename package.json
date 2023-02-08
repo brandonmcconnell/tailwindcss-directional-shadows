@@ -1,0 +1,39 @@
+{
+  "name": "tailwindcss-directional-shadows",
+  "version": "0.0.1",
+  "description": "Extend TailwindCSS to support directional shadows",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonmcconnell/tailwindcss-directional-shadows.git"
+  },
+  "keywords": [
+    "tailwind",
+    "plugin",
+    "direction",
+    "directional",
+    "shadows",
+    "functions"
+  ],
+  "author": "Brandon McConnell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonmcconnell/tailwindcss-directional-shadows/issues"
+  },
+  "homepage": "https://github.com/brandonmcconnell/tailwindcss-directional-shadows#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
