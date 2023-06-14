@@ -75,4 +75,4 @@ I hope you find `tailwindcss-directional-shadows` a valuable addition to your pr
 If you liked this, you might also like my other Tailwind CSS plugins:
 * [multitool-for-tailwindcss](https://github.com/brandonmcconnell/multitool-for-tailwindcss): Group utilities together by variant
 * [jstool-for-tailwindcss](https://github.com/brandonmcconnell/jstool-for-tailwindcss): Effortless build-time JS script injection
-* [tailwindcss-directional-shadows](https://github.com/brandonmcconnell/tailwindcss-directional-shadows): Supercharge your shadow utilities with added directional support (includes directional `shadow-border` utilities too ✨)
+* [tailwind-lerp-colors](https://github.com/brandonmcconnell/tailwind-lerp-colors): Expand your color horizons and take the fuss out of genertaing new—or expanding existing—color palettes
