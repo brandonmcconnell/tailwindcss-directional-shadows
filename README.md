@@ -1,9 +1,13 @@
-<h1>Tailwind CSS Directional Shadows</h1>
+<h1 align="center">Tailwind CSS Directional Shadows</h1>
+
+<div align="center">
 
 [![minified size](https://img.shields.io/bundlephobia/min/tailwindcss-directional-shadows)](https://bundlephobia.com/package/tailwindcss-directional-shadows)
 [![license](https://img.shields.io/github/license/brandonmcconnell/tailwindcss-directional-shadows?label=license)](https://github.com/brandonmcconnell/tailwindcss-directional-shadows/blob/main/LICENSE.txt)
 [![version](https://img.shields.io/npm/v/tailwindcss-directional-shadows)](https://www.npmjs.com/package/tailwindcss-directional-shadows)
 [![twitter](https://img.shields.io/twitter/follow/branmcconnell)](https://twitter.com/branmcconnell)
+
+</div>
 
 `tailwindcss-directional-shadows` is a plugin for Tailwind CSS that introduces directional shadow utilities. This provides more flexibility in casting shadows in specific directions and also allows for the creation of shadows as borders, which can be particularly useful with `position: sticky` on tables.
 
