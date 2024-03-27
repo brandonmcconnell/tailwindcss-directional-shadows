@@ -1,4 +1,4 @@
-<h1 align="center">Tailwind CSS Directional Shadows</h1>
+<h1 align="center">Directional Shadows for Tailwind CSS</h1>
 
 <div align="center">
 
