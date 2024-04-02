@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const plugin_1 = __importDefault(require("tailwindcss/plugin"));
-module.exports = (0, plugin_1.default)(function ({ addUtilities, matchUtilities, theme }) {
+exports.default = (0, plugin_1.default)(function ({ addUtilities, matchUtilities, theme }) {
     // Directional shadows
     ['sm', '', 'md', 'lg', 'xl', '2xl'].forEach((suffix) => {
         ['b', 'r', 't', 'l'].forEach((dir, i) => {

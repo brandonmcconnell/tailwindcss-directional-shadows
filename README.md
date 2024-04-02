@@ -77,6 +77,7 @@ Please replace `[size]` with an appropriate size from the Tailwind CSS border wi
 I hope you find `tailwindcss-directional-shadows` a valuable addition to your projects. If you have any issues or suggestions, don't hesitate to open an issue or pull request.
 
 If you liked this, you might also like my other Tailwind CSS plugins:
+* [tailwindcss-signals](https://github.com/brandonmcconnell/tailwindcss-signals): Declarative API for applying styles based on parent or ancestor state
 * [tailwindcss-selector-patterns](https://github.com/brandonmcconnell/tailwindcss-selector-patterns): Dynamic CSS selector patterns
 * [tailwindcss-multitool](https://github.com/brandonmcconnell/tailwindcss-multitool): Group utilities together by variant
 * [tailwindcss-jstool](https://github.com/brandonmcconnell/tailwindcss-jstool): Effortless build-time JS script injection
