@@ -78,8 +78,8 @@ I hope you find `tailwindcss-directional-shadows` a valuable addition to your pr
 
 If you liked this, you might also like my other Tailwind CSS plugins:
 * [tailwindcss-multi](https://github.com/brandonmcconnell/tailwindcss-multi): Group utilities together by variant
-* [tailwindcss-signals](https://github.com/brandonmcconnell/tailwindcss-signals): Declarative API for applying styles based on parent or ancestor state
-* [tailwindcss-mixins](https://github.com/brandonmcconnell/tailwindcss-mixins): Declarative API for building reusable & aliased sets of utilities inline
+* [tailwindcss-signals](https://github.com/brandonmcconnell/tailwindcss-signals): Apply styles based on parent or ancestor state, a variant-first alterative to groups
+* [tailwindcss-mixins](https://github.com/brandonmcconnell/tailwindcss-mixins): Construct reusable & aliased sets of utilities inline
 * [tailwindcss-selector-patterns](https://github.com/brandonmcconnell/tailwindcss-selector-patterns): Dynamic CSS selector patterns
 * [tailwindcss-js](https://github.com/brandonmcconnell/tailwindcss-js): Effortless build-time JS script injection
 * [tailwindcss-default-shades](https://github.com/brandonmcconnell/tailwindcss-default-shades): Default shades for simpler color utility classes
