@@ -1,6 +1,6 @@
 import plugin from 'tailwindcss/plugin';
 
-export default plugin(function ({ addUtilities, matchUtilities, theme }) {
+module.exports = plugin(function ({ addUtilities, matchUtilities, theme }) {
   // Directional shadows
   ['sm', '', 'md', 'lg', 'xl', '2xl'].forEach((suffix) => {
     ['b', 'r', 't', 'l'].forEach((dir, i) => {
