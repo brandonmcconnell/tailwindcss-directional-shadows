@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 export default plugin(function ({ addUtilities, matchUtilities, theme }) {
   // Directional shadows
