@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-directional-shadows",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Extend TailwindCSS to support directional shadows",
   "type": "module",
   "source": "index.ts",
